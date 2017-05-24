@@ -105,22 +105,22 @@ body {
 .techs {
     position: relative;
     bottom: 0;
+    padding-bottom: 20px;
 }
 
-.button {
-    display: block;
+button {
     margin: auto;
+    display: block;
     text-align: center;
-    width: 100px;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: #407D61;
     color: white;
-    text-decoration: none;
     font-family: Arial, sans-serif;
     font-size: 12px;
     font-weight: 200;
     border: 1px solid #000000;
+    box-shadow: 3px 1px 5px #888888;
 }
 
 .logos {
@@ -133,9 +133,27 @@ body {
     margin: 5px;
 }
 
+#footer {
+    background-color: #F8F8F8;
+    padding: 0 0 10px;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-family: Arial, sans-serif;
+
+}
+
+#footer .social {
+    font-style: italic;
+}
 
 
-.link {
-    display: block;
-    padding: 10px 10px 0 10px;
+#footer .social img {
+    width: 20px;
+    vertical-align: middle;
+    padding: 5px;
+
 }
