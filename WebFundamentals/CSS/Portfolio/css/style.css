@@ -11,7 +11,6 @@ body {
 #header {
     background-color: #F8F8F8;
     padding:20px;
-
 }
 
 #header h1 {
@@ -48,7 +47,6 @@ body {
     display: inline-block;
     vertical-align: top;
     padding-bottom: 20px;
-
 }
 
 .bg_fade {
@@ -125,7 +123,6 @@ button {
 
 .logos {
     padding: 5px;
-
 }
 
 .logos img {
@@ -143,17 +140,14 @@ button {
     margin: 0;
     padding: 10px 0 0 0;
     font-family: Arial, sans-serif;
-
 }
 
 #footer .social {
     font-style: italic;
 }
 
-
 #footer .social img {
     width: 20px;
     vertical-align: middle;
     padding: 5px;
-
 }

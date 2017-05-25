@@ -1,0 +1,171 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+}
+
+#blue {
+    background-color: #245176;
+    padding: 15px;
+}
+
+#header .logo{
+    width:350px;
+    margin-left: 10px;
+}
+
+#interact {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 225px;
+    text-align: right;
+}
+
+#content {
+
+    margin-left: 65px;
+
+}
+
+#nav {
+    background-color: #457DAC;
+    padding-left: 35px;
+    border-radius: 7px;
+    margin-right: 25px;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#nav li a {
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#sidebar {
+    width: 215px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+#sidebar ul {
+    padding: 0;
+}
+
+#sidebar li {
+    list-style-type: none;
+}
+
+#sidebar li a {
+    color: white;
+
+}
+
+#main_content {
+    width: 618px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+#main_content blockquote {
+    color: yellow;
+    line-height: 32px;
+    font-size: 18px;
+    width: 288px ;
+    margin: auto;
+    font-style: italic;
+}
+
+#main_content .cite {
+    font-size: none;
+    font-style: normal;
+    color: white;
+
+}
+
+#white {
+    width: 900px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.callToAction {
+    width: 265px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 5px 80px 0 20px;
+    margin: 0 8px;
+    border-top: solid 3px #73A7D5;
+    font-size: 14px;
+}
+
+.callToAction h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.callToAction p {
+    margin-bottom: 2px;
+}
+
+.callToAction ul {
+    margin: 0;
+    color: #73A7D5;
+}
+
+.callToAction ul a {
+    text-decoration: none;
+    color: #73A7D5;
+}
+
+#footer {
+    background-color: #25547A;
+}
+
+#footer ul {
+    margin: 0 auto;
+    width: 630px;
+    padding-top: 50px;
+}
+
+#footer ul li {
+    display: inline;
+    padding: 20px;
+}
+
+#footer ul li a {
+    color: #77AAD6;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#footer p {
+    text-align: center;
+    padding: 20px 0 10px;
+    margin: 0;
+    font-size: 12px;
+    color: #77AAD6;
+}
