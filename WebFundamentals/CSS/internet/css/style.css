@@ -1,0 +1,225 @@
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    /*background-color: gray;*/
+}
+
+.red {
+    color: #D9231C;
+}
+
+.blue {
+    color: #5E8EB8
+}
+
+#header {
+    background-color: white;
+}
+
+#header img {
+    width: 100px;
+}
+
+#header h1 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 48px;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+#header h2 {
+    background-color: #3B74A5;
+    margin: -30px 0 0 0;
+    padding: 10px 20px;
+    font-size: 32px;
+    font-weight: normal;
+    color: white;
+}
+
+#sidebar {
+    width: 210px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.smaller {
+    font-size: 14px;
+}
+
+#nav {
+    padding: 3px 3px 15px 3px;
+    border-bottom: solid 1px #0a0a0a;
+}
+
+#nav button {
+    display: block;
+    padding: 10px;
+    width: 180px;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.blue_bg_fade {
+    background-color: #24679F;
+}
+
+.orange_bg_fade {
+    background-color: #EF7600;
+}
+
+#ad {
+    background-image: url(/images/ad_background.png);
+    color: white;
+    padding: 20px 20px 35px 20px ;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+#ad p {
+    padding: 0;
+    margin: 0;
+}
+
+#ad img {
+    width: 75px;
+    display: block;
+    margin: auto;
+    padding: 10px 0 20px;
+}
+
+#ad button {
+    font-size: 14px;
+    display: block;
+    margin: auto;
+    width: 160px;
+    padding: 5px 0;
+    background-color: #14C5DF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+#content {
+    width: 719px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px 0 21px;
+}
+
+#breadcrumbs {
+    padding-bottom: 5px;
+    border-bottom: solid 1px black;
+}
+
+#breadcrumbs img {
+    width:20px;
+    margin-top: 5px;
+}
+
+#breadcrumbs a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#contact {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 438px;
+}
+
+#contact img {
+    width: 50px;
+}
+
+.phone {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.phone p {
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+}
+
+.phone .large {
+    font-size: 21px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    color: #00BFDF;
+}
+
+.article {
+    font-size: 15px;
+}
+
+.article h3 {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.article p {
+    margin: 5px 0;
+}
+
+.article ul, .article ol {
+    margin: 3px ;
+}
+
+.article a {
+    color: #0097AE;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.article ul li {
+    margin-bottom: 10px;
+}
+
+.article img {
+    width: 285px;
+    display: block;
+    margin: auto;
+}
+
+.feature {
+    border: solid 5px #0085E0;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.feature img {
+    width: 115px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.feature h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.feature p {
+    margin: 5px 0;
+}
+
+.feature_text {
+    display: inline-block;
+    vertical-align: top;
+    width: 540px;
+    font-size: 15px;
+}
