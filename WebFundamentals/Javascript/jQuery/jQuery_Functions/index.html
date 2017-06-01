@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic jQuery file</title>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/master.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="function">
+                <div class="action">
+                    <button id="click" type="button" name="button">Click Me</button>
+                </div>
+                <div class="documentation">
+                    <h2>click() - Function</h2>
+                    <p>Bind an event handler to the “click” JavaScript event, or trigger that event on an element.</p>
+                    <p>Click Button to use click() function</p>
+                </div>
+            </div>
+            <div class="function">
+                <div class="action">
+                    <button id="hide" type="button" name="button">Hide Me</button>
+                    <button id="show" type="button" name="button">Show Me</button>
+
+                </div>
+                <div class="documentation">
+                    <h2>hide() - Function</h2>
+                    <p>Hide the matched elements.</p>
+                    <h2>show() - Function</h2>
+                    <p>Show the matched elements.</p>
+                    <p id="hideShow">Click the respective button to hide/show this message.</p>
+                </div>
+            </div>
+            <div class="function">
+                <div class="action">
+                    <button id="toggle" type="button" name="button">Toggle</button>
+                </div>
+                <div class="documentation">
+                    <h2>toggle() - Function</h2>
+                    <p>Display or hide the matched elements.</p>
+                    <p id="toggleThis">Click Button to toggle this Paragraph</p>
+                </div>
+            </div>
+            <div class="function">
+                <div class="action">
+                    <button id="slideDown" type="button" name="button">Slide Down</button>
+                    <button id="slideUp" type="button" name="button">Slide Up</button>
+                    <button id="slideToggle" type="button" name="button">Slide Toggle</button>
+                </div>
+                <div class="documentation">
+                    <h2>slideDown() - Function</h2>
+                    <p>Display the matched elements with a sliding motion.</p>
+                    <h2>slideUp() - Function</h2>
+                    <p>Hide the matched elements with a sliding motion</p>
+                    <h2>slideToggle() - Function</h2>
+                    <p>Display or hide the matched elements with a sliding motion.</p>
+                    <p>Click "Slide Down" to reveal the image. Click "Slide Up" to hide the image. Otherwise, you can use Slide Toggle to hide and reveal the image.</p>
+                    <img id="troll" src="img/troll.png" alt="Trolling the 'ish' out of you.">
+                </div>
+            </div>
+            <div class="function">
+                <div class="action">
+                    <button id="fadeIn" type="button" name="button">Fade In</button>
+                    <button id="fadeOut" type="button" name="button">Fade Out</button>
+                </div>
+                <div class="documentation">
+                    <h2>fadeIn() - Function</h2>
+                    <p>Display the matched elements by fading them to opaque.</p>
+                    <h2>fadeOut() - Function</h2>
+                    <p>Hide the matched elements by fading them to transparent.</p>
+                    <img id="casper" src="img/casper.png" alt="I'm Casper!">
+                </div>
+            </div>
+            <div class="function">
+                <div class="action">
+                    <button id="addPadding" type="button" name="button">Add Padding</button>
+                    <button id="addColor" type="button" name="button">Add Bold</button>
+                    <button id="removeClass" type="button" name="button">Remove Class</button>
+                </div>
+                <div class="documentation">
+                    <h2>addClass() - Function</h2>
+                    <p>Adds the specified class(es) to each element in the set of matched elements.</p>
+                    <h2>removeClass() - Function</h2>
+                    <p>Removes the specified class(es) to each element in the set of matched elements.</p>
+                    <p>Click Buttons to Add/Remove classes to following paragraph</p>
+                    <p id="addClassToThis">Bacon ipsum dolor amet aute irure shoulder salami bresaola brisket. Id ground round velit exercitation mollit. Tempor biltong exercitation aute tri-tip. Pork chop veniam cillum aliquip meatball duis doner. Alcatra strip steak ex sunt. Adipisicing sed shankle brisket ut kevin qui cillum occaecat pig sint do short ribs.</p>
+                </div>
+            </div>
+            <div class="function">
+                <div class="action">
+                    <button id="before" type="button" name="button">Add Before</button>
+                    <button id="after" type="button" name="button">Add After</button>
+                    <button id="removeElement" type="button" name="button">Remove</button>
+
+                </div>
+                <div class="documentation">
+                    <h2>before() - Function</h2>
+                    <p>Insert content, specified by the parameter, before each element in the set of matched elements.</p>
+                    <h2>after() - Function</h2>
+                    <p>Insert content, specified by the parameter, after each element in the set of matched elements.</p>
+                    <h2>remove() - Function</h2>
+                    <p>Remove the set of matched elements from the DOM.</p>
+                    <p id="beforeAfter">Use the Before and After button to add elements before/after this paragraph</p>
+                </div>
+            </div>
+            <div class="function">
+                <div class="action">
+                    <button id="append" type="button" name="button">Append It</button>
+                    <button id="removeAppend" type="button" name="button">Reset</button>
+                </div>
+                <div class="documentation">
+                    <h2>append() - Function</h2>
+                    <p>Insert content, specified by the parameter, to the end of each element in the set of matched elements.</p>
+                    <p id="appendHere">Click the Append button to append a blockquote to this paragraph tag.</p>
+                </div>
+            </div>
+            <div class="function">
+                <div class="action">
+                    <button id="html" type="button" name="button">Get HTML/Set Text</button>
+                    <button id="addList" type="button" name="button">Set HTML</button>
+                </div>
+                <div class="documentation">
+                    <h2>html() - Function</h2>
+                    <p>Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.</p>
+                    <h2>text() - Function</h2>
+                    <p>Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents of the matched elements.</p>
+                    <div id="getHtml">
+                        <div style="border:solid 2px white; border-radius: 5px; padding: 10px;">
+                            <p>This &lt;div&gt; is f'n Awesome. How can I get this.</p>
+                            <ul class="addLists">
+                                <li>something is already here</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>Click the HTML button to use html() to grab the HTML for this div and to use text() to set in a block below.</p>
+                    <code id="showHtml"></code>
+
+                </div>
+            </div>
+            <div class="function">
+                <div class="action">
+                    <button id="getAttr" type="button" name="button">Get Attr</button>
+                    <button id="setAttr" type="button" name="button">Set Attr</button>
+
+                </div>
+                <div class="documentation">
+                    <h2>attr() - Function</h2>
+                    <p>Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.</p>
+                    <a class="getAttr" href="http://api.jquery.com/" target="_blank" title="jQuery API Documentation">jQuery API Documentation</a>
+                    <p id="showAttrs"></p>
+                </div>
+            </div>
+            <div class="function">
+                <div class="action">
+                    <input id="valUpdate" type="text" name="value_function" value="">
+                    <button id="setVal" type="button" name="button">Set Val</button>
+
+                </div>
+                <div class="documentation">
+                    <h2>val() - Function</h2>
+                    <p>Get the current value of the first element in the set of matched elements or set the value of every matched element.</p>
+                    <h4 id="valChange">Type your name in the input to the left to update this text.</h4>
+                    <p>Click the Set Val button to set the following inputs to your input Value.</p>
+                    <input class="setVal" type="text" name="" value="">
+                    <input class="setVal" type="text" name="" value="">
+                    <input class="setVal" type="text" name="" value="">
+                </div>
+            </div>
+            <!-- <div class="function">
+                <div class="action">
+                    <button id="data" type="button" name="button">data</button>
+
+                </div>
+                <div class="documentation">
+                    <h2>data()</h2>
+                    <p>Store arbitrary data associated with the matched elements or return the value at the named data store for the first element in the set of matched elements.</p>
+                </div>
+            </div> -->
+        </div>
+
+    </body>
+</html>
