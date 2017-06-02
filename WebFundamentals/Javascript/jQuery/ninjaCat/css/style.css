@@ -1,0 +1,8 @@
+#wrapper {
+    margin: 0 auto;
+}
+
+
+#img_block img {
+    display: block;
+}
