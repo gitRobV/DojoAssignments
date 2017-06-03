@@ -9,8 +9,38 @@
     </head>
     <body>
         <div id="wrapper">
+            <div id="form_box">
+                <form id="contact_form" action="" method="get">
+                    <div class="form_group">
+                        <label for="f_name">First Name: </label>
+                        <input type="text" id="f_name" name="f_name" placeholder="First Name">
+                    </div>
+                    <div class="form_group">
+                        <label for="l_name">Last Name: </label>
+                        <input type="text" id="l_name" name="l_name" placeholder="Last Name">
+                    </div>
+                    <div class="form_group">
+                        <label for="desc">Description: </label>
+                        <textarea id="desc" name="desc" rows="8"></textarea>
+                    </div>
+                    <input id="add_contact" type="submit" name="submit" value="Add Contact">
+                </form>
+            </div>
+            <div id="card_box">
+                <div class="card">
+                    <h2>First/last name</h2>
+                    <p class="hidden">Description</p>
+                </div>
+                <div class="card">
+                    <h2>First/last name</h2>
+                    <p class="hidden">Description</p>
+                </div>
+                <div class="card">
+                    <h2>First/last name</h2>
+                    <p class="hidden">Description</p>
+                </div>
+            </div>
 
         </div>
-
     </body>
 </html>
