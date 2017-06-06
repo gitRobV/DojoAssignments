@@ -1,0 +1,7 @@
+pip install Django - Installs Django
+pip list - Lists all installed libraries
+pip install Django - Shows Django is already installed
+pip freeze - shows a list of library installed with version
+pip uninstall Django - uninstalls Django
+pip show Django -  does not show any information since not installed
+pip search Flask - returns all libraries with Flask relationship
