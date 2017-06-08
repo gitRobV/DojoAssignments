@@ -25,7 +25,7 @@ print ""
 #
 # Hint: Don't worry about getting it perfectly spaced, just ensure all the values are properly output!
 
-table_depth = 12
+table_depth = 10
 
 counter = 0
 
