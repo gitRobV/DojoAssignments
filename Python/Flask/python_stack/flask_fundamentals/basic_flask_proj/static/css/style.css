@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+
+#new {
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px 15px;
+    background-color: #fdfdfd;
+}
+
+#login_form {
+    padding: 20px;
+}
+
+input {
+    padding: 10px 20px;
+    margin-top: 15px;
+
+}
+
+.form_group {
+    padding: 5px;
+}
+
+.form_group input {
+    padding: 10px 20px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic Flask Template</title>
+
+        <!-- CSS Stylesheets -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <!-- Optional Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+        <!-- JS Scripts - jQuery, master.js  -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+        <script type="text/javascript" src="{{ url_for( 'static', filename='js/master.js' ) }}">
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="card_box">
+                <div class="card">
+                    <h1>Session Counter</h1>
+                    <p class="">{{ session['visits'] }}</p>
+                    <a href="/double_up">Add 2</a>
+                    <a href="/reset">Reset Counter</a>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

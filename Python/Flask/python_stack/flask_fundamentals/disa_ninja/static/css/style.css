@@ -1,0 +1,54 @@
+#wrapper {
+    margin: 0 auto;
+    /*width: 75%;*/
+}
+
+#form_box {
+    width: 50%;
+    background-color: #f0f0f0;
+    margin: auto;
+    padding:30px;
+}
+
+#card_box {
+    /*width: 70%;*/
+    /*background-color: #f0f0f0;*/
+    margin: auto;
+    padding: 10px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    height: 312px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    width: 93%;
+
+}
+
+label {
+    margin-bottom: 7px;
+    display: inline-block;
+
+}
+
+#survey {
+    padding: 15px 20px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    margin:10px;
+}

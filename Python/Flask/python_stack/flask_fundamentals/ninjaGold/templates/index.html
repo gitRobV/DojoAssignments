@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome to the Great Number Game!</title>
+
+        <!-- CSS Stylesheets -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <!-- Optional Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Anton|Quicksand" rel="stylesheet">
+
+        <!-- JS Scripts - jQuery, master.js  -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+        <script type="text/javascript" src="{{ url_for( 'static', filename='js/master.js' ) }}">
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="gold">
+                <p>Gold: <span class="gold_count">{{ session['user_gold'] }}</span></p>
+            </div>
+            <div id="card_box">
+                <div class="card">
+                    <h2>Farm</h2>
+                    <p>( Earns 10 - 20 Gold )</p>
+                    <form action="/process_money" method="post">
+                        <input type="hidden" name="building" value="farm" />
+                        <input type="submit" value="Find Gold">
+                    </form>
+                </div>
+                <div class="card">
+                    <h2>Cave</h2>
+                    <p>( Earns 5 - 10 Gold )</p>
+                    <form action="/process_money" method="post">
+                        <input type="hidden" name="building" value="cave" />
+                        <input type="submit" value="Find Gold">
+                    </form>
+                </div>
+                <div class="card">
+                    <h2>House</h2>
+                    <p>( Earns 2 - 5 Gold )</p>
+                    <form action="/process_money" method="post">
+                        <input type="hidden" name="building" value="house" />
+                        <input type="submit" value="Find Gold">
+                    </form>
+                </div>
+                <div class="card">
+                    <h2>Casino</h2>
+                    <p>( Earns/Takes 0 - 50 Gold )</p>
+                    <form action="/process_money" method="post">
+                        <input type="hidden" name="building" value="casino" />
+                            <input type="submit"
+                        {%  if session['user_gold'] < 50    %}
+                            disabled=""
+                        {%  endif %}
+                        value="Find Gold">
+                    </form>
+                </div>
+            </div>
+            <div id="activities">
+                <div class="log">
+                    {%  for item in session['user_log'] %}
+                    {%      if item[0] == 'casino' and item[1] <= 0: %}
+                    <p class="red">Entered a casino and lost {{ item[1] * -1 }} golds... Ouch ({{ item[2] }})</p>
+                    {%      elif item[0] == 'casino' and item[1] > 0: %}
+                    <p class="green">Entered a casino and won {{ item[1] }} golds... Woot ({{ item[2] }})</p>
+                    {%      else: %}
+                    <p class="green">Earned {{ item[1] }} golds from {{ item[0] }} ({{ item[2] }})</p>
+                    {%      endif %}
+                    {%  endfor %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

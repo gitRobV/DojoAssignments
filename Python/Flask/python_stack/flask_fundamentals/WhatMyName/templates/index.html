@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic Routes</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <script type="text/javascript" src="{{ url_for( 'static', filename='js/master.js' ) }}">
+        </script>
+    </head>
+    <body>
+        <div id="new">
+            <h1>Ninja AF</h1>
+            <h2>Please provide your NinjaAF creds</h2>
+            <form id="login_form" action="/process" method="post">
+                <div class="form_group">
+                    <label for="user">What's My Name:</label>
+                    <input type="text" id="user" name="user" placeholder="Username">
+                </div>
+                <input type="submit" name="submit" value="Log In">
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 75%;
+}
+
+#form_box {
+    width: 50%;
+    background-color: #f0f0f0;
+    margin: auto;
+    padding:30px;
+}
+
+#card_box {
+    width: 70%;
+    background-color: #f0f0f0;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    width: 93%;
+
+}
+
+label {
+    margin-bottom: 7px;
+    display: inline-block;
+
+}
+
+#survey {
+    padding: 15px 20px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.card p {
+    border: solid 15px black;
+    background-color: #a9a9a9;
+    margin: 0 auto 40px;
+    display: block;
+    width: 150px;
+    color: white;
+    font-size: 70px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic Flask Template</title>
+
+        <!-- CSS Stylesheets -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <!-- Optional Fonts -->
+         <link href="https://fonts.googleapis.com/css?family=Cabin:400,600|Merriweather+Sans|Muli|Open+Sans|Open+Sans+Condensed:300,700|Quicksand|Roboto|Roboto+Condensed|Titillium+Web:400,600" rel="stylesheet">
+
+        <!-- JS Scripts - jQuery, master.js  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="{{ url_for( 'static', filename='js/master.js' ) }}">
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="form_box">
+                <form id="contact_form" action="" method="get">
+                    <div class="form_group">
+                        <label for="f_name">First Name: </label>
+                        <input type="text" id="f_name" name="f_name" placeholder="First Name">
+                    </div>
+                    <div class="form_group">
+                        <label for="l_name">Last Name: </label>
+                        <input type="text" id="l_name" name="l_name" placeholder="Last Name">
+                    </div>
+                    <div class="form_group">
+                        <label for="desc">Description: </label>
+                        <textarea id="desc" name="desc" rows="8"></textarea>
+                    </div>
+                    <input id="add_contact" type="submit" name="submit" value="Add Contact">
+                </form>
+            </div>
+            <div id="card_box">
+                <div class="card">
+                    <h2></h2>
+                    <p class=""></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+#wrapper {
+    margin: 20px auto;
+    width: 90%;
+
+}
+
+#form_box {
+    width: 50%;
+    background-color: #f0f0f0;
+    margin: auto;
+    padding:30px;
+}
+
+#card_box, #activities {
+    background-color: #f0f0f0;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#activities {
+    padding: 25px;
+}
+
+.log {
+    background-color: white;
+    height: 240px;
+    overflow: auto;
+}
+
+.log p {
+    padding: 0;
+    margin: 5px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #a9a9a9;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+label {
+    margin-bottom: 7px;
+    display: inline-block;
+
+}
+
+#survey {
+    padding: 15px 20px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.gold_count {
+    border: solid 1px black;
+    padding: 5px 20px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    background-color: white;
+    padding: 15px;
+    margin: 13px;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
