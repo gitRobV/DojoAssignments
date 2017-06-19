@@ -16,6 +16,13 @@
     <body>
         <div id="wrapper">
             <div id="form_box">
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        {% for message in messages %}
+                        <p>{{message}}</p>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
                 <form id="dojo_survey" action="/results" method="post">
                     <div class="form_group">
                         <label for="name">Name: </label>

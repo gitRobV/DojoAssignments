@@ -1,0 +1,19 @@
+{% include 'partials/head.html' %}
+<div id="wrapper">
+    <div class="profile">
+        {% if 'user' in session %}
+        <span class="default_img"><i class="fa fa-user" aria-hidden="true"></i></span>
+        <div class="info">
+            <h2>Welcome Back {{ session['user']['first_name'] }}</h2>
+            <p>Name: {{ session['user']['first_name'] + " " + session['user']['last_name'] }}</p>
+            <p>Email: {{ session['user']['email'] }}</p>
+        </div>
+        {% endif %}
+    </div>
+    <div id="card_box">
+
+
+
+    </div>
+</div>
+{% include 'partials/foot.html' %}

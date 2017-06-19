@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #bbd9dc;
+}
+
+.nav_bar {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    font-size: 28px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 25px;
+}
+
+nav ul li i {
+    display: inline-block;
+    vertical-align: middle;
+    padding:10px;
+    width: 30px;
+    text-align: center;
+
+}
+
+
+#wrapper {
+    margin: 0 auto;
+    width: 85%;
+}
+
+#form_box {
+    width: 50%;
+    background-color: #bbd9dc;
+    margin: 40px auto;
+    padding:30px;
+    color: white;
+}
+
+#card_box {
+    width: 90%;
+    margin: auto;
+}
+
+#card_box h3 {
+    padding: 0;
+    margin: 0 0 15px 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    width: 95%;
+    color:#4a75b3;
+}
+
+
+label {
+    margin-bottom: 7px;
+    display: inline-block;
+
+}
+
+#survey {
+    padding: 15px 20px;
+    display: block;
+    margin: 20px auto 0;
+    width: 50%;
+    background-color: #4a75b3;
+    color: white;
+    font-weight: bold;
+}
+
+.profile {
+    background-color: white;
+    padding: 0 25px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 25px auto;
+}
+
+.alert {
+    padding: 0 0 10px;
+    margin: 0;
+    color:#ef284e;
+    font-weight: 600;
+}
+
+.middle {
+    text-align: center;
+}
+
+.default_img {
+    font-size: 120px;
+    display: inline-block;
+}
+
+#sidebar {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #bbd9dc;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#sidebar ul li a {
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+}
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+
+#friend_list {
+    background-color: gray;
+    padding: 20px;
+    width: 74%;
+    display: inline-block;
+    vertical-align: top;
+    color: #0000ee;
+}
+
+.friend {
+    background-color: white;
+    padding: 15px;
+    width: 310px;
+}
+
+.friend .default_img {
+    font-size: 70px;
+    display: inline-block;
+}
+
+.friend .info {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px ;
+}
+
+.info {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px ;
+}
+
+.actions a {
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* Chrome/Opera/Safari */  /* Firefox 19+ */  /* IE 10+ */  /* Firefox 18- */
+::-webkit-input-placeholder {
+    color: #a4c5f5;
+}
+
+/* Auto Fill Color for Crhome*/
+#form_box input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #edf8f9;
+}
